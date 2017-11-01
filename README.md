@@ -4,9 +4,9 @@
 
 ## Non-deep learning
 
-- [TrAdaBoost] [1]
+- [TrAdaBoost][1]
 
-- [TCA (Transfer Component Anaysis)] [1]
+- [TCA (Transfer Component Anaysis)][2]
 
 GFK (Geodesic Flow Kernel) [2]
 

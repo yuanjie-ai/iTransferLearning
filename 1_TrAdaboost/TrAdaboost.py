@@ -63,7 +63,7 @@ def tradaboost(trans_S, trans_A, label_S, label_A, test, N):
             weights[row_A + j] = weights[row_A + j] * np.power(bata_T[0, i],
                                                                np.abs(result_label[row_A + j, i] - label_S[j]))
 
-        # 调整辅域样本权重: 预测正确的样本权重变小（boosting思想）
+        # 调整辅域样本权重: 误分样本权重变大（boosting思想）
         for j in range(row_A):
             weights[j] = weights[j] * np.power(bata, (-np.abs(result_label[j, i] - label_A[j])))
     # print bata_T

@@ -4,6 +4,10 @@
 
 ## Non-deep learning
 
+http://dwz.cn/74855g
+
+
+
 - [TrAdaBoost][1]
 
 - [TCA (Transfer Component Anaysis)][2]
